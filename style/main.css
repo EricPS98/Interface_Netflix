@@ -1,3 +1,39 @@
+:root{ /* Declaração de variáveis */
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+*{ /* Reset de espaçamento padrão */
+    margin: 0;
+    padding: 0;
+
+    /*Elementos não sobrepõem o tamanho da caixa*/
+    box-sizing: border-box;
+}
+
 body{
-    background-color:black;
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif';
+}
+
+header .container{ /* Alinha a div na linha da div anterior */
+    display: flex;
+    flex-direction: row; /* Declaração opcional, se não declarasse, ficaria declarado padrão da mesma forma*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px
+}
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+header nav a:hover{ /* Toda vez que passar o mouse nos elementos do menu, mudar a coloração */
+    color:#fff;
 }
