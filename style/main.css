@@ -13,7 +13,7 @@
 /* Elementos base */
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color:white;
 }
 
@@ -98,4 +98,8 @@ header nav a:hover{ /* Toda vez que passar o mouse nos elementos do menu, mudar 
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
 }

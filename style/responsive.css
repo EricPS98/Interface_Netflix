@@ -1,0 +1,46 @@
+/* Regra de mídia de responsividade aplicada a telas de no máximo 592px*/
+@media screen and (max-width:592px){
+    header .container{ 
+         display: flex;
+         flex-direction: column; /* Faz com que os elementos se alinham em coluna */
+         position: relative;
+     }
+
+     .filme-principal .descricao{
+         margin-top: 5px;
+         margin-bottom: 10px;
+     }
+ 
+     .filme-principal .titulo{
+         margin-top: 1%;
+         font-size: 30px;
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+
+     .botao{
+        margin-top: 5px;
+        width: 180px;
+        height: 40px;
+    }
+
+/* Regra de mídia de responsividade aplicada a telas de no máximo 700px*/
+@media screen and (max-width:700px){
+   header .container{ 
+        display: flex;
+        flex-direction: column; /* Faz com que os elementos se alinham em coluna */
+        position: relative;
+    }
+
+.botao{
+        margin-top: 5px;
+        width: 190px;
+        height: 60px;
+    }
+}
+
+/* Regra de mídia de responsividade aplicada a telas de no mínimo 1000px*/
+@media screen and(min-width:1000px){
+    .descricao{
+        width:50%;
+    }
+}
