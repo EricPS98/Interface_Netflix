@@ -6,12 +6,12 @@
          position: relative;
      }
 
-     .filme-principal .descricao{
+     .time-principal .descricao{
          margin-top: 5px;
          margin-bottom: 10px;
      }
  
-     .filme-principal .titulo{
+     .time-principal .titulo{
          margin-top: 1%;
          font-size: 30px;
          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
